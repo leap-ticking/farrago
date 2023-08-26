@@ -1,2 +1,2 @@
 # farrago
-c++  some tool
+c++ some tool
