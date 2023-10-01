@@ -99,7 +99,7 @@ public:
             return T{AnyFirstType<ObjectCreator, T, FarragoNull, Args...>{this}};
         }
         else {
-            return CreateMoreParamObject<T>(std::make_index_sequence<2>{});
+            return CreateMoreParamObject<T>(std::make_index_sequence<10>{});
         }
     }
 

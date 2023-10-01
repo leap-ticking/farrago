@@ -8,7 +8,7 @@
 #include "farrago.h"
 
 struct Member{
-    Member() = default;
+//    Member() = default;
     Member(int x): x{x} {}
     Member(const Member& m) : x(m.x) {
         std::cout << "Member(const Member& m) " << std::endl;
@@ -64,8 +64,8 @@ public:
 int main() {
     Member m{6};
     Member1 m1{7};
-//    auto t1 = farrago::ObjectCreator<Member, Member1>(m, m1).template Create<Example1>();
-    auto t2 = farrago::ObjectCreator<>().template Create<Example1>();
+    auto t1 = farrago::ObjectCreator<int, Member1>(12, m1).template Create<Example1>();
+//    auto t2 = farrago::ObjectCreator<>().template Create<Example1>();
 
 //    std::move()
 
