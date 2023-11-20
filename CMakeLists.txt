@@ -4,9 +4,10 @@ project(farrago)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(create_object
-        example/create_object.cpp)
+        example/create_object.cpp
+        )
 
 target_include_directories(create_object PUBLIC
         .
         ./include
-)
+        )
