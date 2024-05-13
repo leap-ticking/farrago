@@ -1,4 +1,4 @@
 # farrago
 C++ some tool
 
-wiki
+[wiki](https://github.com/leap-ticking/farrago/wiki)
