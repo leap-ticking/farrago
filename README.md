@@ -7,4 +7,4 @@ C++ some tool
 ## 2. singleton_manager
 单例管理器，按照顺序创建相应的单例类
 
-## [wiki](https://github.com/leap-ticking/farrago/wiki)
+## 使用示例：[wiki](https://github.com/leap-ticking/farrago/wiki)
